@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trabalho · Pedro Otavio</title>
+  <meta name="description" content="Por onde passei e o que aprendi.">
+  <script>
+    try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header wrap">
+    <a class="brand" href="index.html">pedro otavio</a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html">Início</a>
+      <a href="trabalho.html" aria-current="page">Trabalho</a>
+      <a href="index.html#contato">Contato</a>
+      <button class="theme-toggle" type="button" aria-label="Alternar tema claro/escuro"></button>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1 class="page-title">Por onde passei</h1>
+      <p class="page-intro">Lugares em que trabalhei e o que aprendi em cada um.</p>
+    </section>
+
+    <section class="section">
+      <h2>Experiência</h2>
+      <!--
+        Para adicionar uma experiência, copie um bloco <li class="job"> inteiro.
+        Vários cargos na mesma empresa: um <div class="stint"> para cada.
+        Mais recente primeiro.
+      -->
+      <ol class="jobs">
+        <li class="job">
+          <span class="when">2025 – hoje</span>
+          <div>
+            <h3>Norte Marketing</h3>
+
+            <div class="stint">
+              <p class="role">Assistente de desenvolvimento de software · nov 2026 – hoje</p>
+              <p>Desenvolvo e publico aplicações web, da interface ao deploy em produção. Construo interfaces com React e TypeScript, faço deploy e manutenção em VPS Linux, containerizo com Docker, configuro Nginx como servidor web e proxy reverso, e cuido de DNS, domínios e Cloudflare Tunnels.</p>
+              <p class="learnt"><span class="ph">O que estou aprendendo aqui.</span></p>
+              <ul class="tags"><li>React</li><li>TypeScript</li><li>Docker</li><li>Nginx</li><li>Linux</li><li>Cloudflare</li></ul>
+            </div>
+
+            <div class="stint">
+              <p class="role">Assistente de Business Intelligence/Dados · jun 2026 – nov 2026</p>
+              <p>Extração, tratamento, validação e análise de dados de vendas, pedidos, inscrições, eventos e campanhas. Escrevi e otimizei consultas SQL em MySQL, criei automações em Python para reduzir processos manuais e mantive dashboards no Power BI para apoiar decisões.</p>
+              <p class="learnt"><span class="ph">O que aprendi aqui.</span></p>
+              <ul class="tags"><li>SQL</li><li>Python</li><li>MySQL</li><li>PostgreSQL</li><li>Power BI</li></ul>
+            </div>
+
+            <div class="stint">
+              <p class="role">Estagiário de TI · jun 2025 – jun 2026</p>
+              <p>Desenvolvi landing pages responsivas a partir de mockups no Figma, junto com os times de marketing, performance, B2B e design. Fiz testes e ajustes de performance e usabilidade, e cuidei da manutenção de servidor com Linux e Docker.</p>
+              <p class="learnt"><span class="ph">O que aprendi aqui.</span></p>
+              <ul class="tags"><li>HTML/CSS</li><li>JavaScript</li><li>Figma</li><li>Linux</li><li>Docker</li></ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="job">
+          <span class="when">2024 – 2025</span>
+          <div>
+            <h3>9º Tabelionato de Notas</h3>
+            <p class="role">Assistente administrativo</p>
+            <p>Cuidava de ITBI, transferência de IPTU e registro de escrituras, acompanhando os protocolos até a entrega do documento ao cliente. Também solicitava certidões online e testamentos.</p>
+            <p class="learnt"><span class="ph">O que aprendi aqui.</span></p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2>Formação</h2>
+      <ul class="jobs">
+        <li class="job">
+          <span class="when">2024 – 2026</span>
+          <div>
+            <h3>Senac São Paulo</h3>
+            <p class="role">Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
+          </div>
+        </li>
+        <li class="job">
+          <span class="when">2022 – 2023</span>
+          <div>
+            <h3>E.E. Fernão Dias Paes</h3>
+            <p class="role">Ensino médio técnico em Informática</p>
+          </div>
+        </li>
+        <li class="job">
+          <span class="when">Certificado</span>
+          <div>
+            <h3>Versionamento de código com Git e GitHub</h3>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Projetos paralelos</h2>
+      <!-- TODO: projetos do seu GitHub -->
+      <ul class="jobs">
+        <li class="job">
+          <span class="when"><span class="ph">2025</span></span>
+          <div>
+            <h3><a href="https://github.com/P3pu"><span class="ph">Nome do projeto</span></a></h3>
+            <p><span class="ph">O que é, por que fiz e o que saiu dele.</span></p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <span>© 2026 Pedro Otavio</span>
+    <a href="#">Voltar ao topo</a>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
